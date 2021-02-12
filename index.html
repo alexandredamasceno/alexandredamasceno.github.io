@@ -42,6 +42,22 @@
             font-size: 18px;
         }
 
+        .buttom {
+            background-color: #033636;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+        
+        }
+
+        .no-decoration {
+            text-decoration: none;
+        }
+
+        .indice {
+            color: #033636;
+        }
+
         
 
 
@@ -52,16 +68,16 @@
 <body>
     <img id="Alexandre" src="profile-pic.png" alt="Foto de Alexandre Damasceno" width="200px">
     <h1> Alexandre Damasceno </h1>
-    <h5> <a href="http://127.0.0.1:5500/profile-pic.png" target="_blank"> (Ampliar a Imagem)</a></h5>
+    <h5> <a href="http://127.0.0.1:5500/profile-pic.png" target="_blank" class="no-decoration"> (Ampliar a Imagem)</a></h5>
 
     <br>
     <br>
 
     <h4> Índice:</h4>
     <ol>
-        <li><a href="#Quem"> Quem sou? </a></li>
-        <li><a href="#Habilidades">Habilidades;</a></li>
-        <li><a href="#Links">Links Alternativos.</a></li>
+        <li><a href="#Quem" class="no-decoration indice"> Quem sou? </a></li>
+        <li><a href="#Habilidades" class="no-decoration indice">Habilidades;</a></li>
+        <li><a href="#Links" class="no-decoration indice">Links Alternativos.</a></li>
     </ol>
 
     
@@ -80,11 +96,11 @@
 
     <h4 id="Habilidades"> Habilidades:</h5>
     <ul>
-        <li> <strong>Antifrágil</strong> </li>
-        <li> Aprendizagem Rápida - <strong>isso não quer dizer que eu não tenha dúvidas, pelo contrário, eu as tenho, porém eu assumo a responsabilidade de resolvê-las.</strong></li>
-        <li> Persistente</li>
-        <li> Empatia </li>
-        <li> <strong>Trabalho em Equipe</strong> </li>
+        <li> <strong>Antifrágil;</strong> </li>
+        <li> <strong>Aprendizagem Rápida; </strong></li>
+        <li> Persistente;</li>
+        <li> Empatia;</li>
+        <li> <strong>Trabalho em Equipe.</strong> </li>
     </ul>
 
     <br>
@@ -97,6 +113,6 @@
         <li><a href="https://go.betrybe.com/primeiros-passos-no-javascript?utm_medium=instagram&utm_source=social&utm_campaign=evento_link_biografia" target="_blank" class="link-list" >Dê os primeiros passos no JavaScript com a Trybe!</a></li>
     </ul>
     <br>
-    <h5><a href="#Alexandre"> Voltar ao Topo!</a></h5>
+    <h5><a href="#Alexandre" class="buttom"> Voltar ao Topo!</a></h5>
 </body>
 </html>

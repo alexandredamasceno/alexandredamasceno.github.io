@@ -1,0 +1,48 @@
+h1 {
+    font-family: "Montserrat";
+}
+
+.font-eu {
+    font-family: "Epilogue";
+}
+
+body {
+    background-color: #BBDDDD;
+    font-family: "Epilogue";
+    font-size: 16px;
+}
+
+.alinh-center {
+    text-align: center;
+}
+
+.description {
+    font-weight: bold;
+    color: #099191;
+}
+
+.link-list {
+    font-size: 16px;
+    text-decoration: none;
+    color: #099191;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.buttom {
+    background-color: #033636;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.indice {
+    color: #033636;
+}

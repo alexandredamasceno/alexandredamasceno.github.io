@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: "Epilogue";
+    margin: 0px;
+    background-color: rgb(132, 238, 229);
+}  
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 40px;
+
+}
+
+.header {
+    margin: 0px;
+}
+
+.float-left {
+    float: left;
+    width: 100px;
+}
+
+.float-right {
+    float: right;
+    width: 60%;
+    margin-right: 200px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.float-right p:nth-of-type(2) {
+    color: rgb(82, 138, 223);
+    font-weight: bold;
+}
+
+.body-div {
+    padding-top: 330px;
+    padding-left: 20px;
+    
+}
+
+.list-link{
+    text-decoration: none;
+}
+
+.list-link:hover {
+    font-weight: bold;
+}
+
+.list-habilidades {
+    font-size: 15px;
+}
+
+.list-habilidades li:nth-of-type(2) {
+    font-size: 19px
+}
+
+.list-habilidades li:nth-of-type(3) {
+    font-size: 25px
+}

@@ -4,6 +4,7 @@ body {
     font-family: "Epilogue";
     background-color: rgb(132, 238, 229);
     margin: 0px;
+    font-size: 15px;
     
 }  
 
@@ -36,8 +37,8 @@ li {
 .float-right {
     float: right;
     width: 60%;
-    margin-right: 190px;
-    margin-left: 240px;
+    margin-right: 90%;
+    margin-left: 250px;
     position: absolute;
 }
 

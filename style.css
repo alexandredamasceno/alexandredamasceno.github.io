@@ -2,7 +2,7 @@
 
 body {
     font-family: "Epilogue";
-    background-color: rgb(132, 238, 229);
+    background-color: rgb(4, 103, 133);
     margin: 0px;
     font-size: 15px;
     
@@ -12,14 +12,17 @@ h1 {
     font-family: "Montserrat";
     font-weight: bold;
 }
+
+
 img {
     width: 200px;
     border-radius: 50%;
     padding: 10px;
 }
 
-li {
-    padding: 3px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -51,7 +54,20 @@ li {
 }
 
 .body-div {
-    margin-left: 10px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px 20px
+}
+
+.Button {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 .list-link{
